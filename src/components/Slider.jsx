@@ -44,7 +44,7 @@ export default function Slider({ data }) {
     )
 
     return (
-        <div className='relative w-full h-[350px] overflow-hidden'>
+        <div className='relative z-0 w-full h-[350px] overflow-hidden'>
             {data.map((d, i) => (
                 <div
                     key={i}

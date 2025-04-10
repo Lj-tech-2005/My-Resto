@@ -72,7 +72,7 @@ export default function Header() {
 
 
 
-                <nav className={`fixed top-[0px] md:hidden ${toggle == true ?"left-0":"left-[-100%]"}  h-screen z-[5] gap-5 w-[50vw] p-4 bg-black  opacity-100  flex flex-col`}>
+                <nav className={`fixed top-[0px] z-40 md:hidden ${toggle == true ?"left-0":"left-[-100%]"}  h-screen z-[5] gap-5 w-[50vw] p-4 bg-black  opacity-100  flex flex-col`}>
 
                     {
                         menuItem.map((d, i) => {
