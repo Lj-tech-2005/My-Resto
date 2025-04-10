@@ -16,7 +16,7 @@ export default async function page() {
     <div>
 
       <section>
-        <div className='md:grid  grid-cols-2 p-8'>
+        <div className='md:grid max-w-[1360px] mx-auto grid-cols-2 p-8'>
 
           <div className='p-5'>
             <h1 className='text-3xl xl:text-5xl font-bold text-amber-400'>🍽️ Discover Delicious Recipes from Around the World</h1>
@@ -28,7 +28,7 @@ export default async function page() {
 
         </div>
       </section>
-      <section>
+      <section className='max-w-[1360px] mx-auto'>
         <h2 className='text-3xl ms-9 mt-5 font-bold'>Feature Recipes</h2>
         <div className='grid sm:grid-cols-2 justify-center md:grid-cols-4 gap-5 p-5'>
           {
@@ -49,7 +49,7 @@ export default async function page() {
         <Image src="/1.jpg" width={900} height={100} className='w-full h-[70vh] my-20' alt='banner'/>
       </section>
 
-      <section>
+      <section className='max-w-[1360px] mx-auto'>
         <h2 className='text-3xl ms-9 mt-5 font-bold'>Most liked Recipes</h2>
         <Secondslider/>
       
@@ -59,7 +59,7 @@ export default async function page() {
         <Image src="/2.jpg" width={900} height={100} className='w-full h-[80vh] my-20' alt='banner'/>
       </section>
 
-      <section className='mb-15'>
+      <section className='mb-15 max-w-[1360px] mx-auto'>
         <h2 className='text-3xl ms-9 mt-5 font-bold'>Top rating Recipes</h2>
         <div className='grid sm:grid-cols-2 justify-center md:grid-cols-4 gap-5 p-5'>
           {
