@@ -46,7 +46,7 @@ export default async function page() {
       </section>
 
       <section>
-        <Image src="/1.jpg" width={900} height={100} className='w-full h-[70vh] my-20' alt='banner'/>
+        <Image src="/1.jpg" width={900} height={100} className='w-full  my-20' alt='banner'/>
       </section>
 
       <section className='max-w-[1360px] mx-auto'>
@@ -56,7 +56,7 @@ export default async function page() {
       </section>
 
       <section>
-        <Image src="/2.jpg" width={900} height={100} className='w-full h-[80vh] my-20' alt='banner'/>
+        <Image src="/2.jpg" width={900} height={100} className='w-full  my-20' alt='banner'/>
       </section>
 
       <section className='mb-15 max-w-[1360px] mx-auto'>
